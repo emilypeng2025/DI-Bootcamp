@@ -1,0 +1,87 @@
+My answers and questions: how come I cannot run on replit for all these below?
+
+1.
+first = "Hello World!"
+
+2.
+#This is a comment.
+
+3.
+print("I am a computer!") 
+
+4.
+if 1 < 2 and 4 > 2:
+    print("Math is fun!")
+
+5. 
+nope = ""
+print(nope)
+
+6.
+a = [true]
+b = [false]
+print(a and b)
+
+7. 
+string = "What's my length?"
+print(tuple(string))
+
+8.
+text = "i am shouting"
+uppercase_txt = text.upper()
+print(uppercase_txt)
+
+
+9. Convert the string "1000"to the number 1000.
+
+str_number = "1000"
+print(int(str_number))
+
+10.Combine the number 4 with the string "real" to produce "4real".
+
+x = 4
+y = "real"
+Result = str(x) + y
+
+11. Record the output of the expression 3 * "cool".
+
+for i in range(3):
+    print("cool")
+
+12. Record the output of the expression 1 / 0.
+
+13. Determine the type of [].
+list
+
+14. Ask the user for their name, and store it in a variable called name.
+name = input("Enter your name: ")
+print(name)
+
+15. Ask the user for a number. If the number is negative, show a message that says "That number is less than 0!" If the number is positive, show a message that says "That number is greater than 0!" Otherwise, show a message that says "You picked 0!.
+
+number = input ("enter a number: ")
+if number < 0:
+    print("That number is less than 0!")
+elif number > 0:
+    print("That number is greater than 0!")
+else:
+    print("You picked 0!")
+
+16. Find the index of "l" in "apple".
+word = "apple"
+index = word.index("l")
+print(index)
+
+17.Check whether "y" is in "xylophone".
+result = "y" in "xylophone"
+print(result)
+
+EXERCSIE 2 cat's and dog's years
+
+human_years = input ("enter a number of human year: ")
+if human_years=1:
+    print(1, 15, 15)
+elif human_years=2:
+    print(2, 24, 24)
+else:
+    print(human_years, 15+9+4*number, 15+9+5*number)
