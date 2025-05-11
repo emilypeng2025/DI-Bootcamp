@@ -36,6 +36,7 @@ if number % 2 == 0:
 else:
     print("This is an odd number.")
 
+
 #exercist 8
 your_name = input("Enter your name: ")
 if your_name == "Emily":
@@ -49,4 +50,12 @@ if int(user_height) >= 145:
     print("You are tall enough to ride the rollercoaster!")
 else:
     print("You are not tall enough to ride the rollercoaster.")
+
+
+
+
+
+
+
+
 
