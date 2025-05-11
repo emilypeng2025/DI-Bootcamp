@@ -19,3 +19,9 @@ for character in string:
 for character in range(1, len(string)+1):
     print(string[:character])
 
+#random.shuffle
+import random
+all_letters= list(string)
+random.shuffle(all_letters)
+shuffled = "".join(all_letters)
+print(shuffled)
