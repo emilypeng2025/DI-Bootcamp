@@ -1,0 +1,16 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week1/day2/exercise.py
+suggestions for improvement:
+- **Exercise 1:** While the code correctly uses sets and performs the required operations (add, remove, union), it doesn't strictly follow the instruction to remove the *last* number added.  It removes 100 then 88.  The code should track which number was added last to be precise.
+- **Exercise 2:** The solution correctly explains the immutability of tuples and demonstrates how to convert to a list, modify, and convert back.  However,  it could explicitly state that the tuple *cannot* be modified directly; the conversion is the workaround.
+- **Exercise 3:** The code correctly implements all list manipulations.  Using `del` is acceptable but `.pop()` would be slightly more Pythonic for removing by index.
+- **Exercise 4:** The code provides two valid solutions for generating the float sequence.  The comments explaining floats and integers should be a bit more precise (e.g., 'float is a number with a decimal part').
+- **Exercise 6:** The while loop functions correctly, but the 'exit' condition to stop the loop isn't implemented. It should allow the user to break out of the loop.
+- **Exercise 8:** The code doesn't stop the loop when the user types 'quit'. It only lets the user input toppings as many times as they specify in the beginning. Also the final price calculation has an error.
+- **Exercise 9:** The loop for calculating the total price has a logic error in calculating `total_price` ( `total_price = i + price`). It is incrementing `i` which is an index instead of summing up the prices.  The bonus part is missing.
+- **Exercise 10:** The code correctly removes 'Pastrami' and processes the sandwiches.  Improving the 'message printing' part by iterating on the list to improve readability would be beneficial.  The final list should be printed.
+Brief justification:
+- correctness: Most exercises are implemented correctly, though some have minor logical flaws or don't fully adhere to the instructions (Exercises 1, 6, 8, 9, 10).  The core concepts (sets, tuples, lists, loops) are handled appropriately.
+- readability: The code is generally well-structured and easy to follow.  Comments are present, although some could be more precise or detailed. Variable names are mostly descriptive.
+- performance: The code is efficient for the given tasks. No significant performance issues are apparent.  The use of set operations in Exercise 1 is efficient, compared to manually checking for duplicates.
+- security: No security vulnerabilities are present in the provided code.  It's simply performing basic data manipulations and input/output operations.
+
