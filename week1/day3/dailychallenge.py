@@ -3,12 +3,20 @@
 word_of_input = input("Enter a word: ")
 char_positions = {}
 
-for i, char in enumerate(word_of_input):
+for i, char in enumerate(word_of_input): #(i is an index/ the creation of(0,"d") is one tuple)
     if char in char_positions:
         char_positions[char].append(i)
     else:
         char_positions[char]=[i]
 print(char_positions)
+
+
+
+#step one to create only one tuple (0:'d') 
+# for i, char in enumerate(uer_word):
+#    out_dict.update({char:i})
+#step 2 check in the dictionary
+
 
 #Challenge 2: Affordable Items
 
@@ -31,8 +39,14 @@ for item, price in items_purchase.items():
         purchasable.append(item)
 
 if len(purchasable) > 0:
+    purchasable.sort()
     print(purchasable)
 else:
     print("Nothing")
 
+##step 1
+##the logic for loop, give name for key and value, get into both of them
+#for item_name, price in item_purchase.items()
+##dictionary.keys dictionary.value only access one part of them
+##convert the string to interger
     

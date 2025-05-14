@@ -50,25 +50,39 @@
 # rick_dict = {
 #     'first_name':'Rick',
 #     'last_name':'Sanchez'
+# # }
+# # print(rick_dict['first_name'])
+
+
+# # rick_dict = {
+# #     'first_name':'Rick',
+# #     'last_name':'Sanchez'
+# # }
+# # print(rick_dict.keys())
+# # print(rick_dict.values())
+# # print(rick_dict['first_name'])
+# # print(rick_dict.items())
+
+# sample_dict = {
+#   "name": "Kelly",
+#   "age":25,
+#   "salary": 8000,
+#   "city": "New york"
+
 # }
-# print(rick_dict['first_name'])
+# del sample_dict["name"]
+# print(sample_dict)
 
+#day4 with juliana
+#dictionary
 
-# rick_dict = {
-#     'first_name':'Rick',
-#     'last_name':'Sanchez'
-# }
-# print(rick_dict.keys())
-# print(rick_dict.values())
-# print(rick_dict['first_name'])
-# print(rick_dict.items())
+#exercise 2 Cinemax #2
+#methods: 
+#update 
+#change the value
+# #append
 
-sample_dict = {
-  "name": "Kelly",
-  "age":25,
-  "salary": 8000,
-  "city": "New york"
-
-}
-del sample_dict["name"]
-print(sample_dict)
+#index in a dictionary
+#enumarate function (#range)
+#dictionaryname.items()
+#listname.sort()
