@@ -1,0 +1,14 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week1/day3/exercise.py
+suggestions for improvement:
+- In Exercise 2, the final print statement for the total cost is missing a closing parenthesis.  It should be `print("The total price is $"+ str(total_cost))` or a similar method to concatenate the string and integer.
+- Exercise 2 could benefit from a function to encapsulate the ticket pricing logic, improving readability and maintainability.
+- In Exercise 3, the bonus section uses the pipe operator `|` for dictionary merging, which is only available in Python 3.9+. For broader compatibility, use `brand_dic.update(more_on_zara)`.
+- Exercise 3's `major_color` dictionary contains inconsistent data types (string vs list).  Standardize to lists for better consistency.
+- Exercise 4 could be improved by avoiding the creation of the explicit `indices` list and using `enumerate` instead for more concise code.
+- Add comments explaining the logic within the for loop in exercise 2 for better readability.
+Brief justification:
+- correctness: The code generally fulfills the requirements of all exercises. Exercise 1 correctly converts lists to dictionaries. Exercise 2 calculates the total cost and individual prices accurately, although the output formatting could be improved. Exercise 3 successfully manipulates the dictionary as instructed, except for the data type inconsistency in `major_color`. Exercise 4 creates the dictionaries correctly, though a slightly more efficient approach is possible. The minor issues noted in the feedback do not significantly detract from the overall correctness.
+- readability: The code is mostly readable but could be improved with better comments and function organization in Exercise 2, and by addressing the inconsistent data types in Exercise 3. The use of the pipe operator `|` for dictionary merging in Exercise 3 is unconventional and can reduce readability for users not familiar with this recent Python addition.
+- performance: The code's performance is good for the tasks involved. The algorithms used are efficient and the code avoids unnecessary computations.  The use of `dict(zip(...))` is an efficient way to create the dictionaries in Exercises 1 and 4.
+- security: There are no obvious security vulnerabilities in the provided code.  It performs only basic data manipulation and does not interact with external resources that could introduce security risks.
+
