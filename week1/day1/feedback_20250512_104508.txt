@@ -1,0 +1,15 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week1/day1/exercise.py
+suggestions for improvement:
+- Exercise 3: The code comments out the comparison between a string and an integer, which prevents it from demonstrating a key concept of comparison operators and type handling. Uncomment the line and explain the result (TypeError) in the comment.
+- Exercise 3: Add more detailed comments explaining why each comparison evaluates to true or false.
+- Exercise 6: There is a typo in the output string ('Helllo' instead of 'Hello').
+- Exercise 8: The success message should be less biased.  Consider options like 'We have the same name!' or 'What a coincidence, we share a name!'
+- Exercise 8:  The failure message is somewhat aggressive. Consider a gentler approach, such as 'We have different names.' or 'That's a cool name!'
+- Add comments to explain the purpose of each code section or function. 
+- Use more descriptive variable names (e.g., instead of `a` and `b`, use `number1` and `number2`).
+Brief justification:
+- correctness: The code correctly implements most of the exercises.  Exercise 3 is partially incorrect because it omits a key comparison, and Exercise 6 contains a minor typo.  All other exercises produce the expected output, demonstrating understanding of print statements, variables, mathematical operations, comparison operators, if statements, and user input, as outlined in the chapter content. The slight inaccuracies lower the score.
+- readability: The code is mostly readable, but could be improved with more comments to explain the logic in some sections.  Better variable names would enhance readability. The omission in Exercise 3 and the typo in Exercise 6 further detract from readability.
+- performance: The code's performance is excellent for the tasks given.  The algorithms are straightforward and efficient. There are no obvious performance bottlenecks.
+- security: No security vulnerabilities are present in this simple code. There's no interaction with external resources or user-provided data that would pose a security risk.
+
