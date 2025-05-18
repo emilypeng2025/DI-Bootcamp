@@ -7,7 +7,6 @@ class Cat:
 cat1 = Cat ("Kitty", 3)
 cat2 = Cat ("Garfield", 7)
 cat3 = Cat ("Maomao", 9)
-
 # print(cat1.__dict__)
 
 def find_oldest_cat(cat1, cat2, cat3):

@@ -86,3 +86,18 @@ a = Point (100,200)
 print("p.x is:", p.x)
 print("p.y is:", p.y)
 print("p.a is:", a.x)
+
+
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def bark(self):
+        print(f"{self.name} says woof!!")
+    def dance(self):
+        print(f"{self.name} turns around chasing his tail")
+
+Chihuahua = Dog ("Lola", 2)
+Bulldog = Dog ("Barak", 9)
+Bulldog.dance()
