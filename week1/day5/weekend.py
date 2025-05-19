@@ -32,12 +32,14 @@ picture = [[0,0,0,1,0,0,0],
            [0,0,0,1,0,0,0]]
 #task: replace "0" with "", and "1" with ""
 
-letters = []
-for letters in picture:
-    for number in letters: 
-        if (number == 1):
-            print("*", end="")
-        else: 
-            print(" ", end="")
-    print("")
-    
+
+from datetime import datetime, timedelta
+today = datetime.now()
+print("Today is: " + str(today))
+
+#timedelta is used to define a period of time
+one_day = timedelta(days=1)
+yesterday = today - one_day
+print("Yesterday was: " + str(yesterday))
+
+  
