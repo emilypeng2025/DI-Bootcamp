@@ -1,0 +1,15 @@
+URL: URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week2/day2/exercise/exercise2.py
+suggestions for improvement:
+- In `PetDog.train()`, `self.train = True` should be `self.trained = True`.
+- Add docstrings to all classes and methods to improve readability and understanding.
+- In `Family.check_majority()`, handle the case where the person is not found more gracefully (e.g., raise an exception or return a specific value).
+Correctness: 95%
+-----
+URL: URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week2/day2/exercise/exercisew2d2.py
+suggestions for improvement:
+- In Exercise 1, the Cat class inherits from Pets, which is not ideal. Pets should be a container for animals, not a type of animal.  The Cat class should have its own `walk` method. The Siamese and Bengal classes should not take the `animals` parameter in their `__init__` methods, as they are cats, not containers of cats.  Correct the `all_cats` list instantiation to accurately reflect the class requirements. 
+- In Exercise 1, the `__init__` methods of `Siamese` and `Bengal` should include all attributes from `Cat`, simplifying the instantiation.
+- In Exercise 3, the provided example for `PetDog`'s `__init__`, `train`, and `do_a_trick` methods are incomplete; these need proper implementation. Also, import the `random` module for `do_a_trick`.
+- In Exercise 4, add the last name to the `Person` class during initialization instead of assigning it in the `Family` class's `born` method.
+Correctness: 70%
+-----
