@@ -1,0 +1,13 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week1/day3/dailychallenge.py
+suggestions for improvement:
+- Challenge 1: The code for Challenge 1 perfectly meets all requirements of the problem description.  No improvements needed.
+- Challenge 2: The code for Challenge 2 mostly works correctly but lacks error handling for non-numeric characters in prices and the wallet amount.  Improve error handling to make it more robust and provide informative error messages to the user.
+- Challenge 2: Add explicit type checking or validation for the `wallet` and `items_purchase` inputs to prevent unexpected behavior or crashes due to incorrect input formats.
+- General: Add comments explaining the purpose of each section of the code to enhance readability and maintainability.
+- General: Use more descriptive variable names (e.g., instead of `purchasable`, use `affordable_items`).
+Brief justification:
+- correctness: Challenge 1's code successfully creates a dictionary mapping characters to their indices in a string, fulfilling all the requirements specified in the challenge description.  Challenge 2's code mostly produces the correct output for the test cases but doesn't handle all potential edge cases in input format, such as extra characters in the price strings.
+- readability: The code is generally well-structured and easy to follow, but adding comments and more descriptive variable names would significantly improve its readability. The use of `enumerate` in challenge 1 is efficient and readable.
+- performance: The code's performance is good for the given task.  The loops are efficient, and there are no obvious performance bottlenecks.  The string replacement operations in Challenge 2 are efficient for this specific task, but more efficient methods may exist for processing large datasets.
+- security: The code doesn't have any obvious security vulnerabilities. It does not interact with external systems or handle user input in a way that could introduce security risks. However, adding input validation in Challenge 2, as suggested in the feedback, would improve robustness.
+

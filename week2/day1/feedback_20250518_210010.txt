@@ -1,0 +1,13 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week2/day1/exerciceXP.py
+suggestions for improvement:
+- In Exercise 1, the function `find_oldest_cat` could be made more generic to accept a list of cats instead of three individual arguments. This enhances reusability.
+- Exercise 2's `Dog` class is well-implemented. However, adding a method to compare heights directly within the class would be a cleaner approach than doing it outside.
+- Exercise 3's `Song` class works correctly but could benefit from error handling (e.g., checking if `lyrics` is a list).
+- Exercise 4's `Zoo` class is mostly well-structured. The `sort_animals` method is good, but its logic can be slightly streamlined. The `get_groups` method should be renamed to `get_group` to match the code.
+- Add docstrings to all functions and classes for better readability and understanding.
+Brief justification:
+- correctness: All exercises generally fulfill their requirements. Exercise 1 correctly identifies the oldest cat; Exercise 2 creates dog objects and compares their heights; Exercise 3 successfully prints song lyrics; Exercise 4 adds, removes, sorts, and groups animals. However, some minor improvements in design and efficiency are possible (see feedback).  This aligns with the chapter's focus on classes, objects, methods, and attributes.
+- readability: The code is mostly readable. Variable names are descriptive. However, adding more comments and docstrings, especially in Exercise 4, would improve clarity.  Some function names could be more precise. The code structure, while functional, can be slightly improved in terms of flexibility and design. This relates to the chapter's implied emphasis on writing clean and understandable code.
+- performance: The code has decent performance, except in Exercise 4, where the sorting logic could be slightly optimized for larger datasets. Overall, the algorithms are straightforward and efficient for the small examples provided. This aligns with the underlying goals of the chapter.
+- security: There are no obvious security vulnerabilities in the provided code. The code does not handle external input that could lead to security issues, so there are no security concerns related to this aspect.
+
