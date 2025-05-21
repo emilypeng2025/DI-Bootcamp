@@ -1,0 +1,14 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week2/day4/dailychallenge.py
+suggestions for improvement:
+- The `remove_punctuation` method in `TextModification` is not correctly removing all punctuation.  It only removes commas. Use `str.maketrans('', '', string.punctuation)` to remove all punctuation.
+- Add error handling to `from_file` to gracefully handle cases where the file doesn't exist or isn't readable.
+- The `most_common_word` method should handle empty strings or strings with only whitespace more robustly.
+- Implement the `remove_stop_words` and `remove_special_characters` methods as specified in the instructions. 
+- The `unique_word` method should be `unique_words` to match the instructions.
+- Consider using more efficient data structures or algorithms for large text files in `most_common_word` (e.g., using `collections.Counter`).
+Brief justification:
+- correctness: The `Text` class correctly implements `word_frequency`, `most_common_word`, and `unique_words` for basic string analysis. The `from_file` class method works correctly for reading from a file. However, the `TextModification` class is incomplete, and its `remove_punctuation` method is flawed, only removing commas instead of all punctuation.  The bonus methods are not implemented, which accounts for a significant portion of the missing points. This partially fulfills the requirements outlined in 'Part I' and 'Part II' but not 'Bonus: Text Modification'.
+- readability: The code is generally readable and well-structured. Variable and function names are descriptive, and the code is well-formatted. There's room for improvement with error handling and more comments explaining some of the logic.
+- performance: The performance is acceptable for small texts. However, using `text.split()` multiple times in the `Text` class can be inefficient for large texts. The current implementation of `most_common_word` has O(n*log n) complexity due to using max() with a key, which is not necessarily optimal for large datasets. Using collections.Counter would give O(n) performance.  No optimization considerations are present for large file sizes.
+- security: The code is reasonably secure. The `from_file` method uses a `with` statement to ensure the file is properly closed, preventing resource leaks. The use of `encoding="utf-8" ` in `from_file` mitigates potential encoding issues.  No obvious vulnerabilities are present.
+
