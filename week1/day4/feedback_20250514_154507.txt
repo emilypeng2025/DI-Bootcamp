@@ -1,0 +1,12 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week1/day4/exercise.py
+suggestions for improvement:
+- Exercise 4: The random number generation should be inside the function, not outside. The user input should be converted to an integer for proper comparison.
+- Exercise 6: The `make_great` function should modify the list in place instead of creating a new one.  The original list `magician_names` has a typo ('BLaine') and inconsistent capitalization.
+- Exercise 7: The `main` function should take the temperature as a parameter and should handle potential errors or edge cases. The temperature advice lacks a specific message for the temperature range 16-23 degrees. Consider adding more specific advice for various temperature ranges.
+- General: Add docstrings to functions to explain their purpose, parameters, and return values. Improve variable names for better clarity (e.g., `luckynumber` could be `user_guess`).
+Brief justification:
+- correctness: Most exercises correctly implement the core functionality described in the chapter content. However, some minor deviations exist (as detailed in the feedback section), primarily related to function design and error handling. Exercise 4 especially needs improvement to follow instructions precisely.
+- readability: The code is generally well-formatted and easy to understand. Variable names could be improved in a few places for better clarity.  Adding docstrings would greatly enhance readability.
+- performance: The code's performance is adequate for these small tasks. There are no obvious performance bottlenecks.
+- security: There are no apparent security concerns in the provided code.
+

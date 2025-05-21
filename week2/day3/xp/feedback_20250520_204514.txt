@@ -1,0 +1,23 @@
+URL: URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week2/day3/xp/exerciseXP.py
+suggestions for improvement:
+- Improve the `__str__` method to handle pluralization more robustly.  Currently, it only handles the plural 's' for amounts greater than 1. Consider using a more sophisticated approach, or potentially using an external library for pluralization if needed.
+- Add docstrings to all methods for better code readability and maintainability.  This would explain the purpose and functionality of each method clearly.
+- The error message in the `__add__` and `__iadd__` methods could be more informative. Instead of "Cannot add two differnt currencies." or "Cannot add two different currencies", consider specifying the currency types involved in the error, e.g., "Cannot add currency 'dollar' and 'shekel'".
+- Add comprehensive test cases to verify the functionality of the `Currency` class.  This would improve confidence in the code's correctness and help catch potential bugs early.
+Correctness: 95%
+-----
+URL: URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week2/day3/xp/exercise_one.py
+suggestions for improvement:
+- Exercise 1 (Currency class): Implement the `__str__`, `__repr__`, `__int__`, `__add__`, and `__iadd__` methods for the `Currency` class.  The current code is missing this entirely.
+- Exercise 1 (Currency class): Handle the case where currencies are different and raise a `TypeError` as specified in the instructions.
+- Exercise 2 (Modules): The provided code imports and uses a `sum_numbers` function from `func.py`, but `func.py` itself is not provided. Create `func.py` with this function.
+- Exercise 4 (Current Date): The solution correctly displays the current date. However, it could be improved by returning the date instead of printing it directly. This allows greater flexibility in how the function's output is used.
+- Exercise 5 (Time Until Jan 1st): The solution correctly calculates the time difference.  Consider adding more robust error handling (e.g., checking for invalid input) and improving the output's clarity (e.g., formatting the timedelta).
+- Exercise 7 (Faker): The provided code only demonstrates the generation of a name and address using faker.  The full exercise calls for creating a list of dictionaries where each contains name, address, and language code. The loop and dictionary creation are missing.
+Correctness: 85%
+-----
+URL: URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week2/day3/xp/func.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----

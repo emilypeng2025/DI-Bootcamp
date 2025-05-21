@@ -1,0 +1,12 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week2/day1/dailychallenge.py
+suggestions for improvement:
+- The `get_info` method should use string formatting to align the animal names and counts into columns, as specified in the instructions. Currently, it just prints them without formatting.
+- The `get_info` method currently prints the animal information to the console instead of constructing and returning a formatted string.  The return value is then ignored.
+- Add the bonus methods: `get_animal_types` and `get_short_info` as described in the instructions.
+- Improve the `get_info` method to build the entire string within the function before returning it. The current implementation mixes print statements and string concatenation.
+Brief justification:
+- correctness: The code correctly implements the `Farm` class, `__init__`, `add_animal` methods. However, the `get_info` method doesn't fully meet the requirements because it does not format the output to align animal names and counts into columns as specified.  The bonus features are missing.
+- readability: The code is mostly readable but could be improved. The `get_info` method's logic is slightly unclear because it mixes string building with printing. The commented-out line in `add_animal` is unnecessary and detracts from readability.
+- performance: The performance is good for this small-scale problem.  There are no obvious performance bottlenecks.
+- security: There are no apparent security vulnerabilities in the provided code.
+

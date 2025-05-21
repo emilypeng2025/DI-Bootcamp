@@ -1,0 +1,12 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week1/day4/dailychallenge.py
+suggestions for improvement:
+- The code directly converts the MATRIX_STR into a 2D list, which is good.  However, the instructions mention converting `MATRIX_STR` to a 2D list as Step 1.  The code should explicitly show that conversion from the string to a list, rather than starting with the list already built.
+- The comments could be more descriptive. For example, instead of `#loop through each colomn`, use a more detailed comment like `# Iterate through each column of the matrix from left to right`.
+- Consider adding error handling. What if the input string has inconsistent row lengths?  Currently, the code assumes all rows have the same number of characters.
+- The variable name `MATRIX` is capitalized, which is generally preferred for constant variables, but the instructions use `matrix`. Maintain consistency.
+Brief justification:
+- correctness: The code correctly iterates through the columns of the matrix, filters alphabetic characters, and replaces non-alphabetic characters between alphabetic characters with spaces. It produces the correct output ('This is a secret message') based on the provided sample `MATRIX`. The logic accurately implements Steps 2-5 as described in the Chapter Content/Questions. The missing Step 1, converting the string to a 2D list, is the reason for the slight deduction.
+- readability: The code is mostly readable, with clear loops and conditional statements. However, the comments could be more descriptive, and the naming of the `MATRIX` variable is inconsistent with the instructions. The improvement suggestions address these minor readability issues.
+- performance: The code's performance is efficient. It uses nested loops to iterate through the matrix, which is an appropriate approach for this task. The time complexity is linear with respect to the number of elements in the matrix.
+- security: There are no security concerns in this code. It's a simple string manipulation task with no external inputs or data handling that could introduce vulnerabilities.
+
