@@ -1,0 +1,14 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week2/day1/exerciceXP.py
+suggestions for improvement:
+- The code does not address any of the exercises from 1 to 9. It introduces classes for Cat, Dog, Song, and Zoo, but these are not used to solve the problems outlined in the chapter content.
+- Exercise 1 requires printing 'Hello world' four times.  The provided code does not do this.
+- Exercise 2 involves a mathematical calculation; the code does not perform this calculation.
+- Exercises 3-9 involve various Python concepts like user input, conditional statements, and comparisons; none of these are present in the provided code.
+- The class structure is generally well-formed, but its functionality is irrelevant to the exercises.
+- The `sort_animals` method in the `Zoo` class is inefficient. It unnecessarily creates a list of capitalized strings before sorting and then reconstructs a dictionary.  A more efficient approach would directly sort the original list and group animals based on the first letter in a single pass.
+Brief justification:
+- correctness: The code completely fails to address the exercises described in the chapter content.  It defines classes and methods that are not relevant to the given tasks (printing, calculations, conditional logic, user input).  Therefore, the correctness score is very low.
+- readability: The code is reasonably readable. Class names and method names are descriptive. However, the lack of comments makes it harder to understand the purpose of the code without knowing the chapter context. The unnecessary creation of lists and dictionaries in the Zoo class affects readability.
+- performance: The performance of the code is generally good in terms of the code it contains. The `sort_animals` function in the `Zoo` class has a room for improvement, but this is separate from the major issue that the code does not solve the tasks.
+- security: There are no obvious security vulnerabilities in the code. It only deals with simple data and doesn't interact with external systems or sensitive information.
+
