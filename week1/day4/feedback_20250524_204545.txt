@@ -1,0 +1,13 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week1/day4/dailychallenge.py
+suggestions for improvement:
+- The code correctly transforms the matrix string into a 2D list, iterates through columns, filters alpha characters, and replaces non-alpha characters between alpha characters with spaces.  The output is almost correct, however, the final space at the end of the message should be removed.
+- Improve variable names for better readability (e.g., `MATRIX_2D` instead of `MATRIX`).
+- Add comments to explain the logic behind replacing symbols with spaces more clearly.
+- Consider using more descriptive variable names (e.g., `decoded_message` instead of `message`).
+- Add error handling for the case where the input string is not a valid matrix (e.g. uneven row lengths).
+Brief justification:
+- correctness: The code accurately implements steps 1 through 5 as outlined in the Chapter Content/Questions. It correctly converts the string to a 2D list, iterates through columns, filters alphabetic characters, and replaces non-alphabetic sequences with spaces.  The only minor issue is the trailing space in the output.  The overall approach and implementation directly address all the steps in the chapter content. The algorithm correctly handles the column-wise processing and alphabetic character filtering and symbol replacement as specified.
+- readability: The code is relatively readable, with clear use of loops and conditional statements. However, more descriptive variable names and comments would enhance readability.  The variable names could be more explicit, and more comments would explain what specific parts of the code are trying to achieve and clarify the logic.
+- performance: The code's performance is efficient for the given task. The nested loops have a time complexity of O(m*n), where m is the number of rows and n is the number of columns, which is optimal for this problem. There are no unnecessary computations or redundant steps, making it very efficient.
+- security: The code does not involve any security-sensitive operations, so there are no security concerns.
+
