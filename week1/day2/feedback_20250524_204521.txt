@@ -1,0 +1,18 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week1/day2/exercise.py
+suggestions for improvement:
+- **Exercise 1:** While the code correctly uses sets and performs the operations, the removal of the 'last' added number is ambiguous with sets because they are unordered.  Consider a more robust approach, perhaps tracking the last added element separately.
+- **Exercise 2:** The solution correctly explains the immutability of tuples and demonstrates converting to a list, modifying it, and converting back.  However, a more concise explanation of why tuples are immutable could be beneficial.
+- **Exercise 3:** The code accurately performs all list operations.  However, using `del` might be less readable than `remove` for removing elements by value.
+- **Exercise 4:** Both methods for generating the float sequence are correct, showcasing good problem-solving. The explanation of floats and integers could be expanded.
+- **Exercise 5:** The `for` loops are implemented correctly.
+- **Exercise 6:** The `while` loop works as intended but could benefit from more robust error handling (e.g., handling non-string input).
+- **Exercise 7:** The code successfully handles multiple fruits and checks for fruit existence. However, input validation (handling empty input or non-fruit entries) would improve robustness.
+- **Exercise 8:** The code correctly calculates the total price but doesn't include a check to make sure the user inputs a number for the amount of toppings. It also could be improved by allowing the user to enter toppings until they type 'quit'.
+- **Exercise 9:** The code accurately calculates the ticket price based on age.  The bonus portion regarding age restrictions is missing.
+- **Exercise 10:** The solution correctly removes 'Pastrami' and processes sandwiches, but a more efficient approach using list comprehension for removal could be used.
+Brief justification:
+- correctness: Most exercises are correctly implemented, fulfilling the core requirements of each task.  However, some solutions lack robustness or could use more efficient techniques (see feedback). The bonus section in Exercise 9 is not implemented. Exercise 8 also needs improvement to ensure a correct number of inputs.
+- readability: The code is generally readable, but some parts could be improved with better variable names (Exercise 8) or more consistent use of methods (Exercise 3). The comments are helpful in explaining the steps.
+- performance: The code is generally efficient for the problem size, though in a few exercises, more efficient approaches (like using list comprehensions for removing items) could be implemented.
+- security: There are no apparent security vulnerabilities in the provided code. The code does not interact with external systems or handle user input in a way that would create security risks.
+
