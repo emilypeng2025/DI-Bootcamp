@@ -1,0 +1,11 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week1/day5/dailychallenge.py
+suggestions for improvement:
+- Challenge 1: The code correctly sorts the words but doesn't handle potential errors (e.g., empty input). Add input validation and error handling.  The instructions specified using list comprehension, which is not used here.
+- Challenge 2: The `longest_word` function is efficient and correctly identifies the longest word. However, the solution unnecessarily splits the input sentence twice.  The comments are distracting; refactor to remove.
+- General: Improve code style and add docstrings to functions to improve readability and maintainability.
+Brief justification:
+- correctness: Challenge 1 mostly fulfills the requirements, correctly sorting and outputting the comma-separated words. It fails to meet the list comprehension requirement. Challenge 2's function accurately finds the longest word. The overall correctness is reduced due to the lack of input validation and the ignored list comprehension requirement in Challenge 1.
+- readability: The code for Challenge 1 is somewhat readable but could be improved with better variable names and comments. The code for Challenge 2 is readable, however, could benefit from removing the unnecessary commented-out code. The style could be more consistent across both challenges.
+- performance: The algorithms used in both challenges are efficient for their respective tasks; their time complexity is linear (O(n)).  There is some redundancy in Challenge 2 (splitting the sentence twice).
+- security: The code does not introduce any security vulnerabilities; it simply takes and processes user input without interacting with external systems.
+
