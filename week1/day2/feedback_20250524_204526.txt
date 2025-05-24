@@ -1,0 +1,12 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week1/day2/dailychallenge.py
+suggestions for improvement:
+- Challenge 1 is perfectly correct and meets all requirements.
+- Challenge 2's solution is flawed. It removes *all* duplicates, not just consecutive ones.  The prompt specifically states that non-consecutive duplicates should be retained.
+- Improve the code style of Challenge 2 (add comments for better understanding).
+- Add more robust input validation to handle non-integer inputs in Challenge 1 (error handling).
+Brief justification:
+- correctness: Challenge 1 correctly takes two integer inputs, generates a list of multiples, and prints the list as required.  It perfectly aligns with the chapter's content on loops, lists, and input/output operations. Challenge 2, however, fails to meet the requirements; it removes all duplicate letters rather than only consecutive duplicates.  This deviates from the problem description and the instructions, which specifically state that only consecutive duplicates should be removed. Thus 80%.
+- readability: The code for both challenges is relatively easy to read and understand. Variable names are clear, and the logic is straightforward. Minor improvements could enhance readability further. Challenge 2 would benefit from some comments to clarify its logic.  Both could benefit from spacing between functional blocks of code.
+- performance: The performance of both solutions is efficient.  Challenge 1 uses a simple for loop for iteration. Challenge 2's method, while incorrect, is not computationally expensive. The algorithms used have a linear time complexity (O(n)) in both cases, which is acceptable for small to medium sized inputs.
+- security: There are no apparent security vulnerabilities in the provided code.  The code only interacts with user input and performs basic calculations, no external resources are accessed, and there's no risk of injection attacks.
+
