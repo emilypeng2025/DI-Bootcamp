@@ -2,7 +2,7 @@ from anagram_checker import AnagramChecker
 
 checker = AnagramChecker()
 
-print("Welcome aboard!" "This is an anagram checker." "If you wish to exit, print 'exit': ")
+print("Welcome aboard! \nThis is an anagram checker. \nIf you wish to exit, print 'exit': ")
 
 while True:
     word = input("Please type a word: ").strip()
@@ -24,5 +24,5 @@ while True:
         continue
 
     anagrams = checker.get_anagrams(word)
-    print(f"Anagrams:{anagrams}")
+    print(f"Anagrams for '{word}':{', '.join(anagrams)}") # (Assumes anagrams is a list. If not, adjust accordingly.)
 

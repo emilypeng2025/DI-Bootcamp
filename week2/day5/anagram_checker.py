@@ -17,25 +17,32 @@ class AnagramChecker:
     
     def get_anagrams(self, word):
         word = word.lower()
-
-        if word not in self.words_file:
-            print("Word not found in dictionary. ")
-            return [] 
+        anagrams = []
+        for w in self.words_file:
+            if self.is_anagram(word, w):
+                anagram.append(w)
+        return anagrams
+    
+    def is_anagram(self, word1, word2):
+        return sorted(word1) == sorted(word2) and word1 != word2 
+        # if word not in self.words_file:
+        #     print("Word not found in dictionary. ")
+        #     return [] 
         
-        #2 steps:
-        #1. get into each character and put each letter in all positions
-        from itertools import permutations
-        chars = list(word)
-        all_combinations = set("".join(p) for p in permutations(chars)) #permutations is to check all possible combinations, creating a tuple of characters, change to set so no double results
-        # print(all_combinations)
+        # #2 steps:
+        # #1. get into each character and put each letter in all positions
+        # from itertools import permutations
+        # chars = list(word)
+        # all_combinations = set("".join(p) for p in permutations(chars)) #permutations is to check all possible combinations, creating a tuple of characters, change to set so no double results
+        # # print(all_combinations)
 
         # 2. check if word is_valid_word
-        valid_anagrams = []
-        for w in all_combinations:
-            if w in self.words_file and w != word:
-                valid_anagrams.append(w)   
+        # valid_anagrams = []
+        # for w in all_combinations:
+        #     if w in self.words_file and w != word:
+        #         valid_anagrams.append(w)   
 
-        return valid_anagrams
+        # return valid_anagrams
     
 
 # word = AnagramChecker()
