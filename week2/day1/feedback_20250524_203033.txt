@@ -1,0 +1,12 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week2/day1/dailychallenge.py
+suggestions for improvement:
+- The `get_info` method should use string formatting to align the animal names and counts in columns, rather than using `print` within the loop.  The example output shows aligned columns.
+- The `get_info` method should build the entire output string within the function before returning it. Currently, it mixes string concatenation and `print` statements. This violates the instruction to return a formatted string.
+- Add the bonus methods (`get_animal_types` and `get_short_info`) as instructed in the challenge to reach full correctness.
+- Add docstrings to the methods to improve readability and explain their functionality.
+Brief justification:
+- correctness: The code correctly creates a `Farm` class with `__init__`, `add_animal` methods.  `add_animal` correctly handles adding and incrementing animal counts. However, `get_info` does not meet the formatting requirements specified in the example output; it needs to produce the same aligned column output.  The bonus features are missing, preventing a higher correctness score.
+- readability: The code is generally readable.  Variable names are descriptive. However, adding docstrings would significantly improve understanding. The commented-out line in `add_animal` is unnecessary and reduces readability.
+- performance: The performance of the code is good. The algorithms used are efficient for the task. The use of a dictionary for animal counts is appropriate for quick lookups and updates.
+- security: There are no security concerns in this code. It operates purely on local data and doesn't interact with external systems or user inputs that could introduce vulnerabilities.
+
