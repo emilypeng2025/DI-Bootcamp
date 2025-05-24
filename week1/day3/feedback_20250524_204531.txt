@@ -1,0 +1,12 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week1/day3/exercise.py
+suggestions for improvement:
+- In Exercise 2, the total cost calculation and individual price printing are done in separate loops.  Combine them into a single loop for efficiency and better readability. Also, add a print statement for the total cost that is clearer. 
+- In Exercise 3, while the code correctly manipulates the `brand` dictionary, some steps could be combined for better conciseness. For example, checking for the existence of `international_competitors` before appending is redundant because appending to a non-existent key will raise an error, implying it doesn't exist.  Error handling is a better solution.
+- In Exercise 3, the merging of dictionaries in the bonus section uses the pipe operator (`|`), which is more concise than `.update()`, particularly in Python 3.9+. However, since the instructions asked to use a method, the `update()` method is the more explicit approach for better readability.
+- In Exercise 4, the indices list is hardcoded. It would be better to dynamically generate this list based on the length of the `users` list.
+Brief justification:
+- correctness: The code correctly implements the core logic of all four exercises, addressing the requirements for creating dictionaries, using loops and conditionals, and manipulating dictionaries.  Minor issues in output formatting and loop efficiency reduce the score slightly.
+- readability: The code is generally readable, but some sections could be improved. Combining loops and using more descriptive variable names would enhance readability. The use of f-strings improves readability, though. Error handling should be included.
+- performance: The code's performance is good overall.  However, combining loops in Exercise 2 would improve efficiency. The algorithms used are efficient, and there are no major performance bottlenecks.
+- security: There are no security concerns in the provided code.  The code only deals with data manipulation and does not interact with external resources or handle user inputs in a way that could introduce security vulnerabilities.
+
