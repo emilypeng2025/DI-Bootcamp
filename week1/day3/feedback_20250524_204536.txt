@@ -1,0 +1,12 @@
+URL: https://github.com/emilypeng2025/DI-Bootcamp/blob/main/week1/day3/dailychallenge.py
+suggestions for improvement:
+- In Challenge 1, a more descriptive variable name than `char_positions` could enhance readability (e.g., `letter_indices`).
+- In Challenge 2, adding error handling for cases where the price string in `items_purchase` cannot be converted to an integer (e.g., due to unexpected formatting) would improve robustness.
+- The `replace()` method in challenge 2 is called twice.  A regular expression could simplify this.
+- For Challenge 2, consider using a more efficient sorting algorithm if the number of items becomes very large.  However, for the given examples, this optimization is unlikely to be noticeable.
+Brief justification:
+- correctness: Both challenges are solved correctly. Challenge 1 accurately generates the dictionary mapping letters to their indices. Challenge 2 correctly processes the provided dictionary, converts string prices to integers, filters items based on affordability, and sorts the results appropriately. The code produces the expected outputs for all given examples, aligning perfectly with the chapter content’s requirements for dictionaries, loops, conditionals, and string manipulation.
+- readability: The code is generally well-structured and easy to follow. Variable names are mostly descriptive. The use of `enumerate` in Challenge 1 is efficient and clear.  Minor improvements in variable naming and error handling would enhance readability further.  The comments are helpful but could be more extensive to fully explain the logic in certain areas.
+- performance: The algorithms used for both challenges are efficient for the given input sizes. The time complexity of Challenge 1 is O(n), where n is the length of the word. The time complexity of Challenge 2 is O(m log m), where m is the number of items, dominated by the sorting operation.  For significantly larger datasets, more advanced algorithms might be considered, but for the scale of the examples provided, the performance is quite adequate.
+- security: There are no apparent security vulnerabilities in the provided code. It only deals with user input which is processed in a safe manner (no attempts to execute arbitrary code, etc.). The code does not interact with any external resources that could introduce security risks.
+
