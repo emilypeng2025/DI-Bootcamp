@@ -17,7 +17,7 @@ class Text:
                 word_dict[word] += 1
             else:
                 word_dict[word] = 1
-            #or more precise: word_dict[word] = word_dict.get(word, 0) + 1
+            #or more neat: word_dict[word] = word_dict.get(word, 0) + 1
         most_common_word = max(word_dict, key = word_dict.get)
         return most_common_word, word_dict[most_common_word]
 
